@@ -5,3 +5,4 @@ def hanoi(n,a="a",b="b",c="c"):
 		print("move a disc from %s to %s" % (a,c))
 		hanoi(n-1,b,a,c)
 hanoi(3,a,b,c)
+#add a new thing
